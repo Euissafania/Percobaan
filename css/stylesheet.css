@@ -1,0 +1,137 @@
+
+.body_header {
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(fonts/Poppins-Medium.ttf);
+}
+
+* {
+    font-family: Poppins-Regular;
+}
+
+.nav {
+    text-align: center;
+    word-spacing: 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.nav a:hover {
+    border: 2px solid white;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#left a,
+.ol-right a {
+    text-decoration: none;
+    line-height: 35px;
+}
+
+#left a:hover,
+.ol-right a:hover {
+    color: #4D3C77;
+    text-decoration-line: underline;
+}
+
+#left li a:visited ,.ol-right li a:visited{
+    color: blue;
+}
+
+#left a,
+h2,
+.ol-right a {
+    color: white;
+}
+
+/* #left li {
+    color: white;
+} */
+
+.left-div,
+#right-div {
+    border: 10px double #4D3C77;
+    padding: 10px;
+   
+}
+
+.ol-right li, #left li {
+    margin-left: -40px;
+    color: white;
+}
+.ol-right li a, #left li a{
+    font-weight: normal;
+}
+.left-div,
+#right-div ,#fieldset-home, .fieldset-study,.fieldset-gallery{
+    background-image: linear-gradient(to bottom right, #974EC3, #ef5fd4);
+}
+#fieldset-home{
+    text-align: justify;
+    padding-right: 40px;
+}
+#fieldset-home, .fieldset-study, .fieldset-gallery{
+    border: 10px solid #4D3C77;
+    color: white;
+}
+.github a{
+    color: white;
+    text-decoration: none;
+}
+.github a:hover{
+  color: black;
+  font-weight: bold;
+}
+.home-ul{
+    list-style-type: circle;
+}
+.a{
+    list-style-type: upper-alpha;
+}
+.thead-study{
+    background-color: #4D3C77;
+    color: white;
+}
+.tbody-study{
+    color: white;
+}
+.fieldset-gallery h2{
+    text-align: center;
+}
+.fieldset-gallery thead tr{
+    background-color: #4D3C77;
+}
+.fieldset-gallery tbody tr td img:hover{
+    border: 5px solid #4D3C77; 
+    padding:10px;
+}
+.fieldset-gallery tbody tr td {
+    padding: 20px;
+}
+.home-ul p, .a ul li{
+    font-size: 15px;
+}
+.body_header h1{
+        text-align: left;
+        font-size: 55px;
+        color: white;
+        font-weight: bold;
+        padding-left: 90px;
+}
+.body_header   h3{
+    text-align: left;
+    padding-left: 270px;
+    line-height: 0%;
+    color: white;
+    font-size: 20px;
+  }
